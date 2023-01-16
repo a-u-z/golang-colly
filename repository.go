@@ -6,7 +6,7 @@ import (
 	"github.com/gocolly/colly"
 )
 
-// 基本要素
+// 基本要素，以下三個都要以同一個 *colly.Collector 為基礎
 // 1. NewCollector
 // 2. OnHTML/OnXML
 // 3. OnVisit
